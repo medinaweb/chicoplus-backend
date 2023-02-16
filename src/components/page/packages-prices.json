@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_packages_prices",
+  "info": {
+    "displayName": "packagesPrices",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "listItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.list-items"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.button"
+    },
+    "filial": {
+      "type": "decimal"
+    },
+    "users": {
+      "type": "decimal"
+    },
+    "clients": {
+      "type": "string"
+    },
+    "planType": {
+      "type": "string"
+    }
+  }
+}

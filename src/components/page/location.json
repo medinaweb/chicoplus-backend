@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_locations",
+  "info": {
+    "displayName": "location",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "endereco1": {
+      "type": "text"
+    },
+    "endereco2": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_options_plans",
+  "info": {
+    "displayName": "optionsPlan"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "available": {
+      "type": "enumeration",
+      "enum": [
+        "Sim",
+        "Não"
+      ]
+    }
+  }
+}

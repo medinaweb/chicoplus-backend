@@ -1,0 +1,57 @@
+{
+  "kind": "singleType",
+  "collectionName": "plataforma_digitals",
+  "info": {
+    "singularName": "plataforma-digital",
+    "pluralName": "plataforma-digitals",
+    "displayName": "Plataforma Digital",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "plataformaDigital": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.section-title",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "singleFeature": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios",
+        "files"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "funcionalidades": {
+      "displayName": "funcionalidades",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.funcionalidades",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

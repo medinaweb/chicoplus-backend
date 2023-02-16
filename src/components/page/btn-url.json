@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_btn_urls",
+  "info": {
+    "displayName": "btnURL"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

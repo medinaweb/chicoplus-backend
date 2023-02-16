@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "lei_protecao_de_dados",
+  "info": {
+    "singularName": "lei-protecao-de-dado",
+    "pluralName": "lei-protecao-de-dados",
+    "displayName": "Lei de Proteção de Dados",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "content": {
+      "type": "richtext",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

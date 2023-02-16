@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "principais_funcionalidades",
+  "info": {
+    "singularName": "principais-funcionalidade",
+    "pluralName": "principais-funcionalidades",
+    "displayName": "Principais Funcionalidades",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.section-title",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "funcionalidades": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.single-feature",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

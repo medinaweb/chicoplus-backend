@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "menu_principals",
+  "info": {
+    "singularName": "menu-principal",
+    "pluralName": "menu-principals",
+    "displayName": "Menu Principal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "menuPrincipal": {
+      "displayName": "Menu Principal",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.menu-principal",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "demostracao": {
+      "displayName": "menuButton",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.menu-button",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "orcamento": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.menu-button",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

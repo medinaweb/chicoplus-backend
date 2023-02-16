@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_global_title_and_contents",
+  "info": {
+    "displayName": "Title and Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.button"
+    },
+    "carousel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.carousel"
+    },
+    "bgcover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

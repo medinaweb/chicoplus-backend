@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_partners",
+  "info": {
+    "displayName": "partners",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link": {
+      "type": "string",
+      "default": "#"
+    }
+  }
+}

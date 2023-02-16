@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_global_section_titles",
+  "info": {
+    "displayName": "Section Title"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

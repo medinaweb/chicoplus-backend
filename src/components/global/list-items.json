@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_global_list_items",
+  "info": {
+    "displayName": "List Items",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "available": {
+      "type": "enumeration",
+      "enum": [
+        "Sim",
+        "Não"
+      ],
+      "default": "Sim"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacte_nos",
+  "info": {
+    "singularName": "contacte-no",
+    "pluralName": "contacte-nos",
+    "displayName": "Contacte-nos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "location": {
+      "displayName": "location",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.location",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "phone": {
+      "displayName": "phone",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.phone",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "emails": {
+      "displayName": "emails",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.emails",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    }
+  }
+}

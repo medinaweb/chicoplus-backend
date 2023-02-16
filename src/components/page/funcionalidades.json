@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_funcionalidades",
+  "info": {
+    "displayName": "funcionalidades",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

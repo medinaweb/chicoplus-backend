@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "testemunhos",
+  "info": {
+    "singularName": "testemunho",
+    "pluralName": "testemunhos",
+    "displayName": "Testemunhos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "testemonies": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.avatar",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.section-title",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "roda_pes",
+  "info": {
+    "singularName": "roda-pe",
+    "pluralName": "roda-pes",
+    "displayName": "Roda Pé",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-media",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "linksUteis": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.links-uteis",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.menu-principal",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.contact",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

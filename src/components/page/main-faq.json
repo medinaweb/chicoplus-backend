@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_main_faqs",
+  "info": {
+    "displayName": "mainFaq"
+  },
+  "options": {},
+  "attributes": {
+    "questions": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

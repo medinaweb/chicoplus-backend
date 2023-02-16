@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_planos",
+  "info": {
+    "displayName": "Planos",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "filial": {
+      "type": "string"
+    },
+    "users": {
+      "type": "string"
+    },
+    "clients": {
+      "type": "string"
+    },
+    "linkBtn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.link-btn"
+    },
+    "optionPlan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.options-plan"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Base",
+        "Standard",
+        "Premium"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_emails",
+  "info": {
+    "displayName": "emails",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "email01": {
+      "type": "email"
+    },
+    "email02": {
+      "type": "email"
+    }
+  }
+}

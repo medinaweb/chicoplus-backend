@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_link_btns",
+  "info": {
+    "displayName": "linkBtn"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

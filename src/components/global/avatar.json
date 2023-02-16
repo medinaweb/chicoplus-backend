@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_global_avatars",
+  "info": {
+    "displayName": "avatar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "foto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "profissao": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

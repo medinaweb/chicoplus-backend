@@ -1,0 +1,37 @@
+{
+  "name": "chico-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Chicoplus - Plataforma de Microfinanças",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "dependencies": {
+    "@strapi/plugin-email": "^4.6.1",
+    "@strapi/plugin-graphql": "^4.5.5",
+    "@strapi/plugin-i18n": "4.6.0",
+    "@strapi/plugin-users-permissions": "4.6.0",
+    "@strapi/provider-email-nodemailer": "^4.6.1",
+    "@strapi/provider-email-sendgrid": "^4.6.1",
+    "@strapi/strapi": "4.6.0",
+    "pg": "^8.6.0"
+  },
+  "resolutions": {
+    "graphql": "15.5.0"
+  },
+  "author": {
+    "name": "medinaweb"
+  },
+  "strapi": {
+    "uuid": "53c1c4d4-a895-4054-bc00-8203e12ecd05"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_phones",
+  "info": {
+    "displayName": "phone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "phone01": {
+      "type": "string"
+    },
+    "phone02": {
+      "type": "string"
+    }
+  }
+}

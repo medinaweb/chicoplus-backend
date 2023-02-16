@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "producao_de_relatorios_e_documentos",
+  "info": {
+    "singularName": "producao-de-relatorios-e-documento",
+    "pluralName": "producao-de-relatorios-e-documentos",
+    "displayName": "Produção de Relatórios",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "producaoRelatorios": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.section-title",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "listItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.list-items",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "featureImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

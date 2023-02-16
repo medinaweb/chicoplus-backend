@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "sistemas_operativos",
+  "info": {
+    "singularName": "sistemas-operativo",
+    "pluralName": "sistemas-operativos",
+    "displayName": "Sistemas Operativos",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "operatingSystems": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.section-title",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "listItems": {
+      "displayName": "listItems",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.list-items",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "featureImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

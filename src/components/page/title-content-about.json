@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_title_content_abouts",
+  "info": {
+    "displayName": "titleContentAbout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

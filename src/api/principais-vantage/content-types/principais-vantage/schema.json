@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "principais_vantages",
+  "info": {
+    "singularName": "principais-vantage",
+    "pluralName": "principais-vantages",
+    "displayName": "Principais Vantages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.section-title",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "listItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.list-items",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "featureImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
