@@ -40,18 +40,8 @@
         }
       }
     },
-    "demostracao": {
+    "faleConnosco": {
       "displayName": "menuButton",
-      "type": "component",
-      "repeatable": false,
-      "component": "page.menu-button",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "orcamento": {
       "type": "component",
       "repeatable": false,
       "component": "page.menu-button",
